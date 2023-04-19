@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Msaverino Weather App</title>
+</head>
+
+<body class="flex-colomn min-100-vh">
+  <header class="main">
+    <h1 class="app-title">
+      <i class="fas fa-cloud-sun-rain"></i> Weather forecast
+    </h1>
+</header>
+
+
+<main class="flex-row justify-space-between">
+    <div class="col-12 col-sm-12 col-md-4 float-left">
+
+      <div class="card">
+        <h3 class="card-header text-uppercase">Search For A Location</h3>
+        <div id="user-form" class="card-body">
+          <input type="text" id="my-Input" placeholder="Find A City"/>
+          <button class="btn" id="search-Btn">Search</button>
+        </div>
+      </div>
+
+      <div class="card history">
+        <h3 class="card-header text-uppercase">Search History</h3>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-12 col-md-8 float-right">
+      <div>
+        <h2 class="subtitle text-uppercase bg-light">Current Weather</h2>
+        <div class="city"></div>
+      </div>
+
+      <div>
+        <h2 class="subtitle text-uppercase bg-light">5 Day forecast</h2>
+        <div class="five_day"></div>
+      </div>
+    </div>
+
+ 
+  </main>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
