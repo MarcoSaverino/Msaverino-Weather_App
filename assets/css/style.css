@@ -5,12 +5,11 @@
     --light-dark: #353535;
     --dark: #414141;
     --border-radius: 0.3rem;
-    text-transform: uppercase;
 }
   
 * {
     box-sizing: border-box;
-    
+    text-transform: uppercase;
 }
   
 body {
