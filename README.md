@@ -16,10 +16,14 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 
 ## SCREENSHOT WITH LINK TO PAGE PREVIEW 
-[![Screenshot]()]()
+[![Screenshot](../Msaverino-Weather_App/assets/images/Weather-App-Screenshot.PNG)](https://marcosaverino.github.io/Msaverino-Weather_App)
 
 ## LINKS 
 PAGE PREVIEW: 
+https://marcosaverino.github.io/Msaverino-Weather_App
+
+GITHUB REPO: 
+https://github.com/MarcoSaverino/Msaverino-Weather_App
 
 
 ## Contributors
